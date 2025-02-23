@@ -11,7 +11,7 @@ pipeline {
 				script {
 					sh """
           				ls
-	      				echo "test"
+	      				echo "test lg2"
           				"""
 				}
 			}
