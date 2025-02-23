@@ -6,12 +6,13 @@ pipeline {
     }
 
     stages {
-    	stage("Update GIT Deployment") {
+    	stage("Test Webhook") {
 			steps {
 				script {
 					sh """
-          ls
-          """
+          				ls
+	      				echo "test"
+          				"""
 				}
 			}
 	    }
